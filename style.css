@@ -15,12 +15,15 @@ body {
 body {
   display: grid;
   place-items: center;
+  background-color: #202024;
 }
 main {
   background: url(images/Mobile.svg) no-repeat center/cover;
     width: 100vw;
-    min-height: 812px;
+    min-width: 375px;
+    max-width: 500px;
     height: 100vh;
+    border: 1px dotted goldenrod;
 }
 
 .container{
